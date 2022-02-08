@@ -1,0 +1,50 @@
+{
+  "calendars": {
+    "ettyuhvcxzt": {
+      "key": "ettyuhvcxzt",
+      "name": "Lol",
+      "notes": {
+        "fjervhoqer94": "fjervhoqer94"
+      },
+      "members": {
+        "jUjmgCurRRdzayqbRMO7aTG9X1G2": "jUjmgCurRRdzayqbRMO7aTG9X1G2",
+        "45dfgu6y8": "45dfgu6y8",
+        "fyub567iufdt": "fyub567iufdt",
+        "bduihbv65fh": "bduihbv65fh"
+      }
+    },
+    "hgtcxuhu7659gdr": {
+      "key": "hgtcxuhu7659gdr",
+      "name": "MY CALENDAR",
+      "notes": {},
+      "members": {
+        "jUjmgCurRRdzayqbRMO7aTG9X1G2": "jUjmgCurRRdzayqbRMO7aTG9X1G2"
+      }
+    }
+  },
+  "notes": {
+    "fjervhoqer94": {
+      "description": "Take Noah to basketball practice.",
+      "isComplete": false,
+      "dates": "new Date(2022, 0, 1)",
+      "color": "red",
+      "key": "fjervhoqer94"
+    }
+  },
+  "users": {
+    "jUjmgCurRRdzayqbRMO7aTG9X1G2": {
+      "key": "jUjmgCurRRdzayqbRMO7aTG9X1G2",
+      "name": "Chel",
+      "friends": {
+        "fyub567iufdt": "fyub567iufdt",
+        "bduihbv65fh": "bduihbv65fh"
+      },
+      "personalCalendar": "hgtcxuhu7659gdr",
+      "calendars": {
+        "hgtcxuhu7659gdr": "hgtcxuhu7659gdr",
+        "hlkkjhvftyuhg": "hlkkjhvftyuhg"
+      }
+    }
+  },
+  "authId": "jUjmgCurRRdzayqbRMO7aTG9X1G2"
+}

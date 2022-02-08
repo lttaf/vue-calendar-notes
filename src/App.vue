@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <TheNavBar v-if="$route.name !== 'Login'" />
+    <router-view />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheNavBar from "@/components/TheNavBar";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    TheNavBar
   }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style src='../node_modules/bootswatch/dist/quartz/bootstrap.min.css'>
 </style>
